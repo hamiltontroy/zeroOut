@@ -1,0 +1,6 @@
+#include <string.h> // <cstring>
+
+void zeroOut(void *area, size_t length)
+{
+  memset(area, 0, length);
+}
